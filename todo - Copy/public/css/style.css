@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    height: 444px;
+    width: 444px;
+}
+.img-thumbnail{
+height: 200px;
+width: 300px;
+}
+.navigation{
+/* background-attachment: fixed; */
+/* background-color: rgb(226, 86, 86); */
+/* padding: 18px; */
+background-color: #f3b6ad;
+}
+.navigation ul{
+    /* padding-top: 13px; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 15px 30px;
+    /* color: aliceblue; */
+    font-weight: bold;
+    font-size: 20px;
+}
+.navigation li a:hover{
+    /* background-color: rgb(0, 255, 255); */
+    /* padding-bottom: 15px; */
+    /* padding:15px; */
+    border-bottom:  4px solid #000000;
+
+    
+}
+#introsection{
+    height: 444px;
+    /* background-image:  url('./static/back.jpg') ; */
+        /* background-color:rgb(0, 0, 0); */
+        /* color:rgb(255, 255, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    height: 13vh;
+    width: 8%;
+    border-radius:22px ;
+    display: flex;
+    padding: 9px;
+    /* text-align: center; */
+    /* justify-content: center; */
+    align-items: center;
+}
+#nav{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 22px; */
+    
+}
+#nav li a{
+    text-decoration: none;
+    list-style: none;
+    margin: 12px;
+}
+#nav li {
+    text-decoration: none;
+    list-style: none;
+
+}
+#scan::before{
+    content: "";
+    /* background-color: #0000ff; */
+    background-image: url('/static/beerr.jpg');
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position:absolute;
+    margin-top: 114px;
+    padding-bottom: 40px;
+}
+h1{
+    width: 40%;
+    margin-right: 560px;
+    margin-top: 100px;
+    color:rgb(253, 255, 113);
+}
+#btn:hover{
+ background-color: rgb(236, 95, 59);
+ transform: rotateX(20deg);
+ cursor: pointer;
+}
+#btn{
+    width: 9%;
+    margin-right: 546px;
+    margin-top: 58px;
+    color: rgb(253, 255, 113);
+    height: 110px;
+    border-radius: 14px;
+    background: rgb(221, 12, 12);
+    border-bottom-color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    padding: 13px;
+}
+
+#scan{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+    /* background-image: url('/static/image1.jpg'); */
+    /* opacity: 0.5; */
+    /* backface-visibility: inherit;\ */
+    /* margin: 30px; */
+    height: 480px;
+}
+#scan img{
+    height: 400px;
+     width: 25%;
+     margin: -7px;
+     visibility: hidden;
+}
+
+footer{
+    /* background-color: black; */
+    /* color:azure; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* button(type='button', onclick='someFunction("'+ yourObject.id +'")' ) PressMe */

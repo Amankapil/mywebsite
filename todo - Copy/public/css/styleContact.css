@@ -1,0 +1,21 @@
+h1{
+text-align: center;
+margin: 11px;
+}
+.formm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+.myinput{
+    margin: 17px;
+    width: 450px;
+    border-radius: 6px;
+    padding: 9px;
+}
+.btn{
+     margin: 12px;
+    text-align: center;
+}
